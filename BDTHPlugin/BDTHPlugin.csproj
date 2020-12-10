@@ -34,15 +34,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dalamud">
-      <HintPath>C:\Users\LeonBlade\AppData\Roaming\XIVLauncher\addon\Hooks\Dalamud.dll</HintPath>
+      <HintPath>%APPDATA%\XivLauncher\addon\Hooks\Dalamud.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ImGui.NET">
-      <HintPath>C:\Users\LeonBlade\AppData\Roaming\XIVLauncher\addon\Hooks\ImGui.NET.dll</HintPath>
+      <HintPath>%APPDATA%\XivLauncher\addon\Hooks\ImGui.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ImGui.NET, Version=1.72.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>%APPDATA%\XivLauncher\addon\Hooks\ImGui.NET.dll</HintPath>
     </Reference>
     <Reference Include="ImGuiScene">
-      <HintPath>C:\Users\LeonBlade\AppData\Roaming\XIVLauncher\addon\Hooks\ImGuiScene.dll</HintPath>
+      <HintPath>%APPDATA%\XivLauncher\addon\Hooks\ImGuiScene.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="ImGuiScene, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>%APPDATA%\XivLauncher\addon\Hooks\ImGuiScene.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
